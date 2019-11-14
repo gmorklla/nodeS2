@@ -11,7 +11,7 @@ router.all('/*', function(req, res, next) {
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.sendFile(path.resolve('./public/files/edoCta.pdf'));
+  res.sendFile(path.resolve('./public/files/otro.pdf'));
 });
 
 module.exports = router;
